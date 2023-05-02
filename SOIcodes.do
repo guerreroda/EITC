@@ -21,4 +21,4 @@ statastates, name(state_name) nogen
 labmask state_soi, value(state_name)
 labmask state_fips, value(state_name)
 
-export delimited using "US_soitofips.csv", replace
+ export delimited using "US_soitofips", nolabel replace
